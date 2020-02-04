@@ -1,0 +1,97 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: white;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#mainhead{
+    background-color: lightslategrey;
+}
+
+#mainhead h1{
+    color: white;
+    word-spacing: 5px;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li{
+    display: inline;
+    padding-right: 80px;
+}
+
+#navbar a{
+    text-decoration: none;
+}
+
+#showcase{
+    background-image: url('./images/c1.jpg');
+    min-height: 700px;
+}
+
+#showcase p{
+    color: white;
+    font-size: 30px;
+}
+
+#main{
+    background-color: lightslategray;
+}
+
+.on{
+    float: left;
+    width: 40%;
+}
+
+.on a{
+    text-decoration: none;
+}
+
+.off{
+    float: right;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.off a{
+    text-decoration: none;
+}
+
+.on{
+    opacity: 0;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    animation-delay: 5s;
+    animation-name: on;
+    animation-fill-mode: forwards;
+}
+
+@keyframes on{
+    0% { opacity: 0;}
+    100% { opacity: 100;}
+}
+
+.off{
+    opacity: 0;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    animation-delay: 5s;
+    animation-name: off;
+    animation-fill-mode: forwards;
+}
+
+@keyframes off{
+    0% { opacity: 0;}
+    100% { opacity: 100;}
+}
+
+

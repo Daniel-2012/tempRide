@@ -1,0 +1,17 @@
+body{
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin: 0;
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+}
+
+.form-groupe label{
+    display: block;
+    color: greenyellow;
+    padding-top: 20px;
+}
